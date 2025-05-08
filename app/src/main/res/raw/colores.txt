@@ -1,0 +1,12 @@
+Amarillo | Malen | amarillo | play
+Azul | Elu | azul | play
+Blanco | Faen | blanco | play
+Celeste | Elu-luin | celeste | play
+Gris | Mith | gris | play
+Marrón | Rhosg | marron | play
+Naranja | Cull | naranja | play
+Rojo | Caran | rojo | play
+Rosa | Crinth | rosa | play
+Turquesa | Elulairë | turquesa | play
+Verde | Calen | verde | play
+Violeta | Ling | violeta | play

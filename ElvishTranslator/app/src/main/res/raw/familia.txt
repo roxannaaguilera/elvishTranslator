@@ -1,0 +1,14 @@
+Abuela | Daernaneth | abuela
+Abuelo | Daeradar | abuelo
+Esposa | Herves | esposa
+Esposo | Hervenn | esposo
+Hija | Sell | hija
+Hijo | Ionn | hijo
+Madre | Naneth | madre
+Nieto | Iond | nieto
+Nieta | Sellath | nieta
+Padre | Adanadar | padre
+Sobrina | Sellith | sobrina
+Sobrino | Ionneth | sobrino
+Tia | Oneth | tia
+Tio | Onón | tio

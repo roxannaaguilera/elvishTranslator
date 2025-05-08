@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#092b13"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+            android:id="@+id/elvishTranslatorimageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.847"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/mainactivity" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.003"
+        android:background="#BA953F"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_marginVertical="8dp" />
+
+    <LinearLayout
+            android:id="@+id/iconsContainer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15">
+
+        <RelativeLayout
+            android:id="@+id/numerosContainer"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/numerosButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:onClick="onClickNumeros"
+                tools:ignore="onClick"
+                android:contentDescription="@string/numeros"
+                app:srcCompat="@drawable/numeros" />
+
+            <TextView
+                android:id="@+id/numerostextView"
+                android:layout_margin="5dp"
+                android:layout_below="@id/numerosButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="#BA953F"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold|italic"
+                android:text="Números" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/familiasContainer"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/familiasButton"
+                android:layout_centerHorizontal="true"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClickFamilias"
+                tools:ignore="onClick"
+                android:contentDescription="@string/numeros"
+                app:srcCompat="@drawable/familias" />
+
+            <TextView
+                android:id="@+id/familiastextView"
+                android:layout_margin="5dp"
+                android:layout_below="@id/familiasButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold|italic"
+                android:textColor="#BA953F"
+                android:textSize="14sp"
+                android:text="Familias" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/coloresContainer"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/coloresButton"
+                android:layout_centerHorizontal="true"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/numeros"
+                android:onClick="onClickColores"
+                tools:ignore="onClick"
+                app:srcCompat="@drawable/colores" />
+
+            <TextView
+                android:id="@+id/coloresTextView"
+                android:layout_margin="5dp"
+                android:layout_below="@id/coloresButton"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#BA953F"
+                android:textSize="14sp"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold|italic"
+                android:text=" Colores" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/frasesContainer"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/frasesButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:onClick="onClickFrases"
+                tools:ignore="onClick"
+                android:contentDescription="@string/numeros"
+                app:srcCompat="@drawable/frases" />
+
+            <TextView
+                android:id="@+id/frasesTextView"
+                android:layout_margin="5dp"
+                android:layout_below="@id/frasesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#BA953F"
+                android:textSize="14sp"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold|italic"
+                android:text=" Frases" />
+        </RelativeLayout>
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imagen_palabra"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="16dp"
+        android:padding="4dp"
+        android:background="#0D330D" />
+
+
+    <LinearLayout
+    android:id="@+id/contenerdorcontainer"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/texto_espanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="espanol"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#C6A138" />
+
+    <TextView
+        android:id="@+id/texto_elfico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="elfico"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="4dp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imagen_play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="16dp"
+        android:padding="4dp"
+        android:background="#0D330D" />
+</LinearLayout>
+

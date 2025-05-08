@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ElvishTranslator</string>
+    <string name="frases">Frases</string>
+    <string name="colores">Colores</string>
+    <string name="familias">Familias</string>
+    <string name="numeros">Numeros</string>
+</resources>

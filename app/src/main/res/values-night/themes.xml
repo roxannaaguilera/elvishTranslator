@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ElvishTranslator" parent="Theme.Material3.Dark">
+
+    </style>
+
+    <style name="NoActionBar" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="WithActionBar" parent="Theme.Material3.Dark">
+
+    </style>
+</resources>

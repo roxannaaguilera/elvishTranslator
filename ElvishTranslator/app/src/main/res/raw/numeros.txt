@@ -1,0 +1,15 @@
+1 | mîn | uno
+2 | tâd | dos
+3 | nêl | tres
+4 | canad | cuatro
+5 | leben | cinco
+6 | eneg | seis
+7 | odog | siete
+8 | tolodh | ocho
+9 | neder | nueve
+10 | pae | diez
+11 | minig | once
+12 | uiug | doce
+13 | pae-a-nêl | trece
+14 | pae-a-canad | catorce
+15 | pae-a-leben | quince
