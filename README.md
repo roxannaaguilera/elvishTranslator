@@ -1,6 +1,6 @@
 Traducción Élfica - Español a Élfico
 
-Descripción
+
 Traducción Élfica es una aplicación móvil desarrollada en Android Studio que permite traducir textos en español al idioma Élfico. 
 
 Con esta aplicación, los fanáticos de Tolkien y la literatura fantástica podrán explorar el idioma élfico y disfrutar de la magia de su traducción, todo desde la comodidad de su dispositivo móvil.
