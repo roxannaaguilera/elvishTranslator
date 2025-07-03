@@ -41,13 +41,8 @@ Android Studio instalado en tu máquina.
 Un dispositivo Android o un emulador de Android configurado para probar la aplicación.
 
 Pasos de instalación
-Clona este repositorio:
 
-bash
-Copiar
-Editar
-git clone https://github.com/tu_usuario/traduccion-elfica.git
-Abre el proyecto en Android Studio.
+Clona este repositorio.
 
 Instala las dependencias necesarias a través de Gradle.
 
