@@ -1,0 +1,95 @@
+Traducción Élfica - Español a Élfico
+
+Descripción
+Traducción Élfica es una aplicación móvil desarrollada en Android Studio que permite traducir textos en español al idioma Élfico. La aplicación soporta traducciones en dos variantes populares del élfico: Quenya y Sindarin, los idiomas ficticios creados por J.R.R. Tolkien en el universo de El Señor de los Anillos.
+
+Con esta aplicación, los fanáticos de Tolkien y la literatura fantástica podrán explorar el idioma élfico y disfrutar de la magia de su traducción, todo desde la comodidad de su dispositivo móvil.
+
+Funcionalidades
+Traducción de textos: Ingresa una palabra o frase en español y obtén su traducción al élfico (Quenya o Sindarin).
+
+Selector de idioma: Puedes elegir entre Quenya o Sindarin como idioma de destino.
+
+Interfaz intuitiva: Disfruta de una interfaz de usuario limpia y fácil de usar para traducir sin complicaciones.
+
+Soporte de frases comunes: La app incluye un conjunto de frases comunes predefinidas para facilitar las traducciones rápidas.
+
+Características
+Traducción en Quenya y Sindarin.
+
+Interfaz de usuario amigable con diseño adaptativo para móviles.
+
+Sin conexión a internet: No necesitas conexión para utilizar las traducciones.
+
+Personalización del tema: puedes elegir entre temas claro y oscuro.
+
+Tecnologías Utilizadas
+Lenguaje: Kotlin
+
+IDE: Android Studio
+
+API de Traducción Élfica: Base de datos interna con traducciones para Quenya y Sindarin.
+
+Interfaz de usuario: XML con diseño responsive.
+
+Base de datos: SQLite para almacenamiento local de traducciones y frases comunes.
+
+Instalación
+Requisitos previos
+Android Studio instalado en tu máquina.
+
+Un dispositivo Android o un emulador de Android configurado para probar la aplicación.
+
+Pasos de instalación
+Clona este repositorio:
+
+bash
+Copiar
+Editar
+git clone https://github.com/tu_usuario/traduccion-elfica.git
+Abre el proyecto en Android Studio.
+
+Instala las dependencias necesarias a través de Gradle.
+
+Ejecuta la aplicación en un dispositivo Android o emulador.
+
+¡Listo! La aplicación debería estar funcionando correctamente.
+
+Uso
+Abre la aplicación.
+
+Ingresa el texto en español que deseas traducir.
+
+Elige el idioma de destino: Quenya o Sindarin.
+
+Toca el botón "Traducir" para ver el resultado de la traducción.
+
+Puedes guardar tus traducciones favoritas o compartirlas con otros.
+
+Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación, puedes realizar un fork de este repositorio y enviar un pull request.
+
+Para comenzar, sigue estos pasos:
+
+Haz un fork de este repositorio.
+
+Crea una nueva rama (git checkout -b feature/nueva-traduccion).
+
+Realiza tus cambios y haz commit (git commit -am 'Añadida nueva traducción').
+
+Haz push a tu rama (git push origin feature/nueva-traduccion).
+
+Envía un pull request.
+
+Licencia
+Este proyecto está licenciado bajo la MIT License - consulta el archivo LICENSE para más detalles.
+
+Créditos
+J.R.R. Tolkien: Por crear los maravillosos idiomas Quenya y Sindarin.
+
+Desarrolladores: Nombre(s) de los desarrolladores de la app.
+
+Notas adicionales
+Este proyecto está en constante desarrollo, por lo que es posible que se agreguen más características y mejoras en el futuro, como traducciones más complejas o integración con una API externa para traducción en tiempo real.
+
+Se agradecen las sugerencias y comentarios.
